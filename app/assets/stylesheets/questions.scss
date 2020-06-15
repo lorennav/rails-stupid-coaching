@@ -1,0 +1,88 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+// Defining a variable
+$gray: #FAFFFD;
+$orange: #FA824C;
+
+body {
+  background: $gray; // Using this variable
+}
+
+.banner {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  h1 {
+    font-size: 50px;
+    font-family: Roboto, sans-serif;
+    margin: 0 0 40px 0;
+  }
+  p {
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    margin-top: 6px;
+  }
+}
+
+a {
+
+  font-family: Roboto, sans-serif;
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
+
+.new_question{
+  padding-top: 30px;
+}
+
+.button {
+  background-color: #FEE4AE;
+  padding: 5px;
+  border-radius: 6px;
+  color: #263D92;
+  border-color: lightgrey;
+  border-width: 0.1px;
+}
+
+.fill {
+  width: 400px;
+  height: 30px;
+  border-color: lightgrey;
+  border-radius: 10px;
+  border-weight: 0.1px;
+}
+
+#questions{
+  width: 400px;
+  background: white;
+  padding: 20px;
+  text-align:left;
+  margin: 0 auto;
+  border-left: solid;
+  border-color: grey;
+  &:hover {
+    background-color: lightyellow;
+  }
+
+}
+
+#answers{
+  width: 400px;
+  background: white;
+  margin: 30px auto 0 auto;
+  padding: 20px;
+  text-align:left;
+  border-left: solid;
+  border-color: grey;
+   &:hover {
+    background-color: lightyellow;
+  }
+
+
+}
+
